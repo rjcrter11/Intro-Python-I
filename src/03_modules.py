@@ -33,4 +33,5 @@ print(os.getpid())
 print(os.getcwd())
 # Print out your machine's login name
 # YOUR CODE HERE
-print(os.uname())
+myhost = os.uname()[1]
+print(myhost)
